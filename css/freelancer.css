@@ -189,6 +189,11 @@ section.work {
     background: #0066B0;
 }
 
+section.email{
+	color: #fff;
+	background: 0093FC;
+}
+
 @media(max-width:767px) {
     section {
         padding: 75px 0;
