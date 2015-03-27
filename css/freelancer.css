@@ -179,6 +179,22 @@ section h2 {
     font-size: 3em;
 }
 
+.sectionTitle {
+	float: left;
+	width: 25%;
+}
+
+.sectionContent {
+	float: right;
+	width: 72.5%;
+}
+
+.subDetails {
+	font-size: 1em;
+	font-style: italic;
+	margin-bottom: 3px;
+}
+
 section.success {
     color: #0066B0;
     background: #fff;
