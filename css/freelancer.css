@@ -190,10 +190,29 @@ section h2 {
 }
 
 .subDetails {
+	text-align: right;
 	float: right;
+	width: 5;
 	font-size: 1em;
 	font-style: italic;
 	margin-bottom: 3px;
+}
+
+.keySkills {
+	margin-top: 25px;
+}
+
+.keyClasses {
+	list-style-type: none;
+	-moz-column-count:3;
+	-webkit-column-count:3;
+	column-count:3;
+	margin-bottom: 20px;
+	font-size: 1em;
+}
+
+.centering{
+	text-align: center;
 }
 
 section.success {
@@ -361,7 +380,6 @@ footer h3 {
 }
 
 footer .footer-above {
-    padding-top: 50px;
     background-color: #4F4F4F;
 }
 
