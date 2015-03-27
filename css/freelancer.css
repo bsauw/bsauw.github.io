@@ -190,6 +190,7 @@ section h2 {
 }
 
 .subDetails {
+	float: right;
 	font-size: 1em;
 	font-style: italic;
 	margin-bottom: 3px;
