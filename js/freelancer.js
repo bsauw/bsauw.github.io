@@ -3,7 +3,35 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
-
+ 
+jQuery(function () {
+	"use strict";
+    
+    /*global jQuery $*/ 
+	//Slider 
+	$(document).ready(function(){
+		
+		jQuery('.skillbar').each(function() {
+			jQuery(this).appear(function() {
+				jQuery(this).find('.count-bar').animate({
+					width:jQuery(this).attr('data-percent')
+				},3000);
+				var percent = jQuery(this).attr('data-percent');
+				jQuery(this).find('.count').html('<span>' + percent + '</span>');
+			});
+		});	
+	});
+	
+}());
+ 
+ /* 	jQuery(document).ready(function(){
+	jQuery('.skillbar').each(function(){
+		jQuery(this).find('.skillbar-bar').animate({
+			width:jQuery(this).attr('data-percent')
+		},6000);
+	});
+}); */
+ 
 // jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function() {
     $('body').on('click', '.page-scroll a', function(event) {
