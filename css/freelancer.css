@@ -189,12 +189,12 @@ section h2 {
 }
 
 .subDetails {
-	text-align: right;
+	text-align: left;
 	float: right;
 	width: 5;
 	font-size: 1em;
 	font-style: italic;
-	margin-bottom: 3px;
+	margin-bottom: 10px;
 }
 
 .keySkills {
