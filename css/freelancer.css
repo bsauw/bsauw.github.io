@@ -186,6 +186,8 @@ section h2 {
 .sectionContent {
 	float: right;
 	width: 72.5%;
+	margin-top: -55px;
+	margin-bottom: 55px;
 }
 
 .subDetails {
