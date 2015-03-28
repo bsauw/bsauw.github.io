@@ -527,7 +527,6 @@ footer .footer-below {
 	#name, #contactDetails {
 		float: none;
 		width: 100%;
-		text-align: center;
 	}
 	
 	.sectionTitle, .sectionContent {
