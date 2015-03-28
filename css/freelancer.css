@@ -183,23 +183,18 @@ section h2 {
 	width: 25%;
 }
 
-.header-col {
-  padding-top: 9px;
-}
 .sectionContent {
 	float: right;
 	width: 72.5%;
-	margin-top: -55px;
-	margin-bottom: 55px;
 }
 
 .subDetails {
-	text-align: left;
+	text-align: right;
 	float: right;
 	width: 5;
 	font-size: 1em;
 	font-style: italic;
-	margin-bottom: 10px;
+	margin-bottom: 3px;
 }
 
 .keySkills {
