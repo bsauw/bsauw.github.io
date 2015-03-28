@@ -183,6 +183,9 @@ section h2 {
 	width: 25%;
 }
 
+.header-col {
+  padding-top: 9px;
+}
 .sectionContent {
 	float: right;
 	width: 72.5%;
