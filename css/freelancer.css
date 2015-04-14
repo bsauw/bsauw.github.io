@@ -175,6 +175,11 @@ header .intro-text .skills {
     border: 0;
 }
 
+table {
+    table-layout: fixed;
+    width: 100%;
+}
+
 section {
     padding: 100px 0;
 }
